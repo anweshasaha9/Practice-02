@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tags and Elements</title>
+</head>
+
+<body>
+
+  <!-- Introduction to HTML -->
+
+  <!-- Creating hyperlinks -->
+  <p>
+    Creating a hyperlinks
+    <a href="https://google.com">Google Here</a>
+  </p>
+
+  <!-- Advanced Text Formattign -->
+
+  <!-- Description Lists -->
+  <dl>
+    <dt>First</dt>
+    <dd>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+      numquam culpa nulla voluptatem rem hic!
+    </dd>
+    <dt>Second</dt>
+    <dd>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique non
+      facilis beatae. Repellat, quibusdam eaque!
+    </dd>
+    <dt>Third</dt>
+    <dd>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, omnis
+      aut? Dolore asperiores obcaecati ab!
+    </dd>
+  </dl>
+  <!-- Multiple Descrptions for one term -->
+  <dl>
+    <dt>First</dt>
+    <dd>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugiat
+      magni ab ea minus reiciendis?
+    </dd>
+    <dd>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+      doloremque earum possimus debitis. Est odio qui odit consequuntur dolores
+      optio perspiciatis aliquid aperiam? Recusandae iste totam, asperiores
+      mollitia esse doloribus!
+    </dd>
+  </dl>
+
+  <!-- Quotations -->
+
+  <!-- Code tag -->
+  <p>
+    The <strong>HTML <code>&lt;code&gt;</code> Element</strong> (or
+    <em>HTML Block Quotation Element</em>) indicates that the enclosed text is
+    an
+    extended quotation.
+  </p>
+  <!-- Blockquotes -->
+  <p>Here is a blockquote:</p>
+  <blockquote>
+    <p>
+      The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+      <em>HTML Block Quotation Element</em>) indicates that the enclosed text is
+      an extended quotation.
+    </p>
+  </blockquote>
+  <!-- Inline Quotes -->
+  <p>
+    Suppose
+      <q cite="#">
+        this line is taken from a book
+      </q>
+  </p>
+  <!-- Citations -->
+  <p>
+    According to the
+    <a href="/en-US/docs/Web/HTML/Element/blockquote">
+      <cite>MDN blockquote page</cite></a>:
+  </p>
+
+  <blockquote
+    cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+    <p>
+      The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+      <em>HTML Block Quotation Element</em>) indicates that the enclosed text is
+      an extended quotation.
+    </p>
+  </blockquote>
+
+  <p>
+    The quote element — <code>&lt;q&gt;</code> — is
+    <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+      intended for short quotations that don't require paragraph breaks.
+    </q>
+    — <a href="/en-US/docs/Web/HTML/Element/q"><cite>MDN q page</cite></a>.
+  </p>
+
+  <!-- Abbreviation -->
+  <p>
+    We use <abbr>HTML</abbr>, Hypertext Markup Language, to structure our web documents.
+  </p>
+
+  <p>
+    I know <abbr title="Anwesha">Anny</abbr> bakes delicious cakes.
+  </p>
+
+<!-- Marking up Contact Deatils -->
+<address>
+  <p>
+    Anwesha<br/>
+    147/1 Belgharia<br/>
+    Kolkata<br/>
+    India
+  </p>
+
+  <ul>
+    <li>Contact.No : 999999999</li>
+    <li>Email: abc@test.com</li>
+  </ul>
+</address>
+<!-- Suprerscript and Subscript -->
+<p>My birthday is on the 23<sup>rd</sup> of April 2001.</p>
+
+<!-- Representing Computer Code -->
+<pre><code>const x = document.getElementbyId('p');
+
+  x.onclick = function() {
+    alert('Find the answer');
+  }</code></pre>
+
+  <p>
+    You shouldn't use presentational elements like <code>&lt;font&gt;</code> and
+    <code>&lt;center&gt;</code>
+  </p>
+
+  <p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+
+  <!--Marking up times and dates-->
+  <time datetime="2024-04-17">17 April 2024</time>
+
+  <!--Non-semantic wrappers-->
+  <p>
+    The King walked drunkenly back to his room at 01:00, the beer doing nothing to
+    aid him as he staggered through the door.
+    <span class="abc">
+      [Editor's note: At this point in the play, the lights should be down low].
+    </span>
+  </p>
+  <!-- using <div> tag-->
+    <div class="shopping-cart">
+      <h2>Shopping cart</h2>
+      <ul>
+        <li>
+          <p>
+            <a href=""><strong>Silver earrings</strong></a>: $99.95.
+          </p>
+          <img src="product.jpg" alt="Silver earrings" />
+        </li>
+        <li>…</li>
+      </ul>
+      <p>Total cost: $237.89</p>
+    </div>
+
+</body>
+</html>
